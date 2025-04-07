@@ -2,7 +2,7 @@ n: int
 
 n = int(input("Quantos numeros voce vai digitar? "))
 
-vetor: [int] = [0 for x in range(n)]
+vetor: list[int] = [0 for x in range(n)]
 
 for i in range(n):
 	vetor[i] = int(input("Digite um numero: "))
